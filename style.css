@@ -40,3 +40,71 @@ notebook/pc:
 */
 
 /* tvoje styly sem */
+.doporucujeme{
+    display: flex;
+    border: 1px solid white;
+    color: beige;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+    
+}
+
+.recept{
+ padding: 10px;   
+}
+
+.recept-nazev{
+    font-size: 28px;
+    
+}
+
+.recept-kategorie{
+    text-align: left;
+    font-size: 18px;
+}
+
+.recept-komentare{
+    text-align: right;
+    font-size: 18px;
+    margin-top: -18px;
+}
+.hlavni-recept{
+background-image: url(images/burger.jpg);
+background-position: center;
+width: 40%;
+background-size: cover;
+min-height: 200px;
+padding: 10px; 
+}
+
+.sloupec{
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch; 
+    margin: 0;/* proč se to neroztáhne na výšku toho hl. receptu? */
+    
+}
+
+.recept2{
+    background-image: url(images/sushi.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.recept3{
+    background-image: url(images/rajcata.jpg);
+    background-position: center;  
+}
+
+.recept4{
+    background-image: url(images/kure.jpg);
+    background-position: center;  
+}
+
+.recept5{
+    background-image: url(images/grilovani.jpg);
+    background-position: center;  
+}
