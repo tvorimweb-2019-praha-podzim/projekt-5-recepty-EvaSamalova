@@ -48,6 +48,10 @@ notebook/pc:
 
 /*ztmavení = linear-gradiend - podívej se na to*/
 
+.doporucujeme{
+    position: relative;
+}
+
 .hlavni-recept {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/burger.jpg);
     background-position: center;
@@ -57,6 +61,7 @@ notebook/pc:
     width: 100%;
     border-bottom: 1px solid ivory;
     color: ivory;
+    position: relative;
 }
 
 .hlavni-recept h2 {
@@ -141,6 +146,7 @@ notebook/pc:
     .hlavni-recept {
         width: 100%;
         min-height: 250px;
+        position: relative;
     }
     .hlavni-recept h2 {
         font-size: 36px;
